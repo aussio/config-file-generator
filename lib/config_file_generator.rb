@@ -109,5 +109,5 @@ class ConfigFileGenerator
 
   end
 
-  private :read, :render
+  private :check_required_vars, :find_templates, :get_vars_used_in_template, :load_vars, :read, :render
 end
