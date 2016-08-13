@@ -111,7 +111,3 @@ class ConfigFileGenerator
 
   private :read, :render
 end
-
-
-deployment_config = ConfigFileGenerator.new
-deployment_config.generate('staging')
