@@ -1,7 +1,7 @@
 # config-file-generator
 A simple tool to take *.yml.erb files, parse them with Ruby ERB, and generate *.yml files.
 
-h2. Todo:
+### Todo:
 
 - Add a real README
 - Add tests
