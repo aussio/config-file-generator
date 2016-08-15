@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version     = '1.0.3'
   s.date        = '2016-08-12'
   s.summary     = "Generates YAML from ERB"
-  s.description = "A simple tool to take *.yml.erb files, parse them with Ruby ERB, and generate *.yml files."
+  s.description = "A simple tool to parse ERB-templated files and generate your text from them."
   s.authors     = ["Austin Curtis"]
   s.email       = 'austin.curtis@wpengine.com'
   s.files       = ["lib/config_file_generator.rb"]

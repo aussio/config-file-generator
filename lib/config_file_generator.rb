@@ -59,7 +59,7 @@ class ConfigFileGenerator
   def find_templates(template_path)
     if File.directory?(template_path)
       Dir["#{template_path}/**/*"].select do |file|
-        File.file?(file) and ! file.include? 'vars.yml'
+        File.file?(file) and File.extname(file) == '.erb' and ! file.include? 'vars.yml'
       end
     elsif File.file?(template_path)
       [template_path]
